@@ -17,10 +17,11 @@
 .logo {
     width: 23%;
     padding: 1%;
+    background-color: black;
 }
 
 nav {
-    width: 73%;
+    width: 89%;
     padding: 1%;
     background-color: black;
     color:white;
@@ -29,8 +30,8 @@ nav {
 }
 
 ul {
-    width: 50%;
-    margin-left: auto;
+    /*width: 50%;
+    margin-left: auto;*/
 }
 
 .fotoDiv{
@@ -66,7 +67,7 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
-    text-align: center;
+    /*text-align: center;*/
    /* border: 1px solid black;*/
 
    /*
@@ -80,7 +81,7 @@ ul {
 footer {
     background-color:#373738;
     color:white;
-    text-align: center; 
+    /*text-align: center;*/
 }
 
  /*TODO: Use padding to center your <ul> and <li> elements.*/
