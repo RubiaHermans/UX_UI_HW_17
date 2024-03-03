@@ -1,0 +1,63 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+    
+div.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    background-color: black;
+    color:white;
+     font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.heroimg {
+    height: 600px;
+    padding: 25px;
+    background-color: #f5f679;
+  }
+
+.minhafoto { 
+    border-style: groove; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+footer {
+    background-color:#373738;
+    color:white;
+} /*TODO: Use padding to center your <ul> and <li> elements.*/
+
+footer > ul {
+    display: inline-block;
+    vertical-align:top;
+  }
