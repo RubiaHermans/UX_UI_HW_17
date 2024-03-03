@@ -26,14 +26,25 @@ ul {
     text-align: center;
 }
 
+.fotoDiv{
+    padding-left: 10px;
+
+}
+
 .heroimg {
     height: 600px;
-    padding: 25px;
+    padding: 30px;
     background-color: #f5f679;
   }
 
 .minhafoto { 
-    border-style: groove; 
+    /*border-style: groove;*/
+      border: 1px solid;
+      padding: 1px;
+      box-shadow: 30px 20px;
+      width:350;
+      height:400;
+
 }
 
 .center {
@@ -46,6 +57,7 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+   /* border: 1px solid black;*/
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -60,4 +72,9 @@ footer {
 footer > ul {
     display: inline-block;
     vertical-align:top;
+  }
+
+img{ 
+    padding-right: 90%;
+    padding-left:10%;
   }
