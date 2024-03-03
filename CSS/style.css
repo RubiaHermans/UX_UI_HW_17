@@ -3,8 +3,18 @@
     vertical-align: top;
 }
 
+/*
+.inline-block{
+    background-color: black; 
+    list-style-type: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+*/
     
-div.logo {
+.logo {
     width: 23%;
     padding: 1%;
 }
@@ -14,16 +24,13 @@ nav {
     padding: 1%;
     background-color: black;
     color:white;
-     font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
+   /* text-align: center; */
 }
 
 ul {
-   /* width: 50%;*/
+    width: 50%;
     margin-left: auto;
-}
-
-.logo {
-    text-align: center;
 }
 
 .fotoDiv{
@@ -33,7 +40,7 @@ ul {
 
 .heroimg {
     height: 600px;
-    padding: 30px;
+    padding: 25px;
     background-color: #f5f679;
   }
 
@@ -47,34 +54,48 @@ ul {
 
 }
 
+/*
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+  */
 
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
    /* border: 1px solid black;*/
+
+   /*
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    */
 }
 
 footer {
     background-color:#373738;
     color:white;
-} /*TODO: Use padding to center your <ul> and <li> elements.*/
+    text-align: center; 
+}
+
+ /*TODO: Use padding to center your <ul> and <li> elements.*/
 
 footer > ul {
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
+    /*
+    list-style-type: none;
+    */
   }
 
+  /*
 img{ 
     padding-right: 90%;
     padding-left:10%;
   }
+  */
