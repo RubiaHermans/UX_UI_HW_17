@@ -1,102 +1,60 @@
+/* Navbar Styles */
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    vertical-align:middle;
 }
 
-/*
-.inline-block{
-    background-color: black; 
-    list-style-type: none;
-    text-align: center;
-    vertical-align: top;
-    margin: 0;
-    padding: 0;
-}
-*/
-    
 .logo {
-    width: 23%;
+    width: 22%;
     padding: 1%;
-    background-color: black;
+    text-align: center;
 }
 
 nav {
-    width: 89%;
-    padding: 1%;
-    background-color: black;
-    color:white;
-    font-family: "Times New Roman", Times, serif;
-   /* text-align: center; */
+    width: 65%;
+    padding: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:right;
 }
 
+/* Align unordered list to the right */
 ul {
-    /*width: 50%;
-    margin-left: auto;*/
+    width: 50%;
+    margin-left: auto;
 }
 
-.fotoDiv{
-    padding-left: 10px;
-
-}
-
-.heroimg {
+/* Hero image styles */
+.heroImg {
     height: 600px;
     padding: 25px;
-    background-color: #f5f679;
-  }
-
-.minhafoto { 
-    /*border-style: groove;*/
-      border: 1px solid;
-      padding: 1px;
-      box-shadow: 30px 20px;
-      width:350;
-      height:400;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  */
-
+/* Content styles */
 .content {
     width: 500px;
     margin: 0 auto;
-    /*text-align: center;*/
-   /* border: 1px solid black;*/
-
-   /*
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    */
 }
 
+button{
+    background-color:white;
+    margin-bottom:3%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+}
+
+
+/* Footer styles */
 footer {
-    background-color:#373738;
-    color:white;
-    /*text-align: center;*/
+    background-color: black;
+    padding: 1%;
+    color:white; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:right;
 }
 
- /*TODO: Use padding to center your <ul> and <li> elements.*/
-
-footer > ul {
+footer ul {
     display: inline-block;
     vertical-align: top;
-    /*
-    list-style-type: none;
-    */
-  }
-
-  /*
-img{ 
-    padding-right: 90%;
-    padding-left:10%;
-  }
-  */
+    padding: 1%;
+}
